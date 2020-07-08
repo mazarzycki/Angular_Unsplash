@@ -1,0 +1,13 @@
+.title {
+  text-align: center;
+  padding: 20px;
+}
+
+.search_form {
+  text-align: center;
+}
+
+.input_field {
+  width: 400px;
+  padding: 10px;
+}
