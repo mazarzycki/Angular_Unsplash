@@ -32,7 +32,6 @@
   .toolbar #twitter-logo {
     height: 40px;
     margin: 0 16px;
-
   }
 
   .toolbar #twitter-logo:hover {
@@ -43,6 +42,11 @@
       height: 500px;
       background: url(https://images.unsplash.com/photo-1483729558449-99ef09a8c325?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80);
       background-repeat: no-repeat;
+  }
+
+  .results_module {
+    height: 100px;
+    background-color: lightgreen;
   }
 
   /* Responsive Styles */
