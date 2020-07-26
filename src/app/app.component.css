@@ -1,60 +1,154 @@
-:host {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-    font-size: 14px;
-    color: #333;
-    box-sizing: border-box;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-  }
 
+.upper_header_part {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  color: black;
+  margin-bottom: 10px;
+  padding-top: 5px;
+}
 
-  .spacer {
-    flex: 1;
-  }
+.logo_block {
+ margin-right: 15px;
+  display: flex;
+  flex-direction: row;
+  font-family: Helvetica, Arial, sans-serif;
+}
 
-  .toolbar {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 60px;
-    display: flex;
-    align-items: center;
-    background-color: #fff;
-    color: black;
-    font-weight: 600;
-  }
+.logo_text {
+  margin-top: 10px
+}
 
-  .toolbar img {
-    margin: 0 16px;
-  }
+.logo_text_upper {
+  font-weight: 600;
+}
 
-  .toolbar #twitter-logo {
-    height: 40px;
-    margin: 0 16px;
-  }
+.logo_text_lower {
+  font-weight: lighter;
+  font-size: smaller;
+}
 
-  .toolbar #twitter-logo:hover {
-    opacity: 0.8;
-  }
+.main_link:visited {
+  color: #000;
+}
 
-  .search_module {
-      height: 500px;
-      background: url(https://images.unsplash.com/photo-1483729558449-99ef09a8c325?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80);
-      background-repeat: no-repeat;
-  }
+.search_field {
+  display: flex;
+  flex-direction: row;
+  border: none;
+  border-radius: 24px;
+  height: 40px;
+  width: 730px;
+}
 
-  .results_module {
-    height: 100px;
-    background-color: lightgreen;
-  }
+.search_field:hover {
+  border: solid black 0.1px;
+}
 
-  /* Responsive Styles */
-  @media screen and (max-width: 767px) {
+.search_button {
+  border: none;
+  padding-left: 14px;
+  background-color: #eee;
+  border-radius: 24px 0 0 24px;
+  color: gray;
+}
 
-  }
+.search_button:hover {
+  color: black;
+}
 
-  @media screen and (max-width: 575px) {
+.search_button:focus {
+  outline: none;
+}
 
+.input_field {
+  width: 400px;
+ border: none;
+ flex-grow: 2;
+ background-color: #eee;
+ border-radius: 0 24px 24px 0;
+ font-size: 0.9em;
+}
+input:focus {
+  outline: none;
+}
 
-  }
+.menu li a{
+  font-family: Helvetica, Arial, sans-serif;
+  color: #767676;
+  font-size: 14px;
+}
+
+.menu li a:hover {
+color: #000;
+}
+
+.menu li {
+  display: inline;
+  padding: 2px 15px;
+
+}
+
+a:link {
+  text-decoration: none;
+}
+
+.collapse_menu {
+  font-weight: 700;
+}
+
+.submit_link {
+  border: solid 1px #767676;
+  border-radius: 7%;
+  padding: 7px;
+}
+
+.login_link {
+  padding: 10px 0 10px 22px;
+  border-left: solid 1px #767676;
+}
+
+.join_link {
+  border: none;
+  border-radius: 4px;
+  background-color: #3cb46e;
+  color: #fff!important;
+  padding: 8px 12px;
+}
+
+.lower_header_part {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: -20px;
+}
+
+.featured {
+  font-size: 9px;
+  text-transform: uppercase;
+  margin-left: 123px;
+  margin-bottom: -15px;
+  color: #767676;
+}
+
+.editorial {
+  border-right: solid 1px black;
+  padding-left: 0px !important;
+
+}
+
+.search_module {
+  height: 500px;
+  background: url(https://images.unsplash.com/photo-1483729558449-99ef09a8c325?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80);
+  background-repeat: no-repeat;
+}
+
+.results_module {
+  height: 100px;
+  background-color: lightgreen;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 767px) {}
+
+@media screen and (max-width: 575px) {}
