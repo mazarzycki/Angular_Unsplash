@@ -1,12 +1,12 @@
 
 .upper_header_part {
-  height: 40px;
+  height: 45px;
   display: flex;
   align-items: center;
   background-color: #fff;
   color: black;
   margin-bottom: 10px;
-  padding-top: 5px;
+  padding-top: 10px;
 }
 
 .logo_block {
@@ -36,14 +36,14 @@
 .search_field {
   display: flex;
   flex-direction: row;
-  border: none;
+  border: transparent 0.1px solid;
   border-radius: 24px;
   height: 40px;
   width: 730px;
 }
 
 .search_field:hover {
-  border: solid black 0.1px;
+  border: solid rgb(206, 200, 200) 0.1px;
 }
 
 .search_button {
@@ -99,7 +99,7 @@ a:link {
 }
 
 .submit_link {
-  border: solid 1px #767676;
+  border: solid 1px #bdb8b8;
   border-radius: 7%;
   padding: 7px;
 }
@@ -139,7 +139,7 @@ a:link {
 
 .search_module {
   height: 500px;
-  background: url(https://images.unsplash.com/photo-1483729558449-99ef09a8c325?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80);
+  background: url(https://images.unsplash.com/photo-1594401343255-3dfdf86e469d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80);
   background-repeat: no-repeat;
 }
 

@@ -14,10 +14,17 @@
   background-color: white;
 }
 
+.search_button:focus {
+  outline: none;
+}
+
 .input_field {
   width: 700px;
   padding: 20px;
   border: none;
   background-color: white;
   flex-grow: 2;
+}
+.input_field:focus {
+  outline: none;
 }
