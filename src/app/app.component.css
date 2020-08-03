@@ -1,3 +1,6 @@
+header {
+  margin-bottom: 20px;
+}
 
 .upper_header_part {
   height: 45px;
@@ -46,6 +49,7 @@
   border: solid rgb(206, 200, 200) 0.1px;
 }
 
+
 .search_button {
   border: none;
   padding-left: 14px;
@@ -69,6 +73,16 @@
  background-color: #eee;
  border-radius: 0 24px 24px 0;
  font-size: 0.9em;
+}
+
+.input_field_small {
+  width: 70%;
+ border: none;
+ flex-grow: 2;
+ background-color: #eee;
+ border-radius: 0 24px 24px 0;
+ font-size: 0.9em;
+ display: none;
 }
 input:focus {
   outline: none;
@@ -102,6 +116,13 @@ a:link {
   border: solid 1px #bdb8b8;
   border-radius: 7%;
   padding: 7px;
+}
+
+.submit_link_small {
+  border: solid 1px #bdb8b8;
+  border-radius: 7%;
+  padding: 7px;
+  display: none;
 }
 
 .login_link {
@@ -138,8 +159,8 @@ a:link {
 }
 
 .search_module {
-  height: 500px;
-  background: url(https://images.unsplash.com/photo-1594401343255-3dfdf86e469d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80);
+  height: 550px;
+  background: url(https://images.unsplash.com/photo-1594878462445-84cdf4a789d8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1934&q=80);
   background-repeat: no-repeat;
 }
 
@@ -149,6 +170,34 @@ a:link {
 }
 
 /* Responsive Styles */
-@media screen and (max-width: 767px) {}
 
-@media screen and (max-width: 575px) {}
+@media screen and (max-width: 480px) {
+  .logo_text {display: none; }
+  .search_field {width: 80%;}
+  .upper_menu {display: none;}
+  .input_field {display: none;}
+  .input_field_small {display: inline; width: auto;}
+  .lower_menu .hide_480 {display: none;}
+  .lower_menu li {padding: 0 5px;}
+
+}
+
+@media screen and (max-width: 767px) {
+  .logo_text {display: none; }
+  .search_field {width: 70%;}
+  .upper_menu {display: none;}
+  .input_field {display: none;}
+  .input_field_small {display: inline;}
+  .lower_menu .hide_767 {display: none;}
+  .lower_menu li {padding: 0 5px;}
+
+}
+
+@media screen and (max-width: 1023px) {
+.search_field {width: 20%;}
+.input_field {display: none;}
+.input_field_small {display: inline;}
+.submit_link {display: none;}
+.submit_link_small {display: inline;}
+.menu li {padding: 0 6px;}
+}
