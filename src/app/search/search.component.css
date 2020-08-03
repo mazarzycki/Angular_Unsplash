@@ -48,7 +48,6 @@ color: lightgray;
   border: none;
   background-color: white;
   flex-grow: 2;
-  font-size: ;
 }
 .input_field:focus {
   outline: none;

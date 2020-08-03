@@ -176,7 +176,7 @@ a:link {
   .search_field {width: 80%;}
   .upper_menu {display: none;}
   .input_field {display: none;}
-  .input_field_small {display: inline; width: auto;}
+  .input_field_small {display: inline;}
   .lower_menu .hide_480 {display: none;}
   .lower_menu li {padding: 0 5px;}
 
